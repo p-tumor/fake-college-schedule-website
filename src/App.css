@@ -182,8 +182,18 @@
     border-right-color: var(--border);
   }
 
-  .inputSec{
+  
+
+}
+
+.inputSec{
     float:left;
   }
 
+  .container{
+    border: 1px solid white;
+  }
+
+#calendar{
+  display: grid;
 }

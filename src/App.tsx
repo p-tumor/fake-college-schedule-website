@@ -3,8 +3,8 @@ import './App.css';
 
 const App = () => {
     return<>
-        
-        <div style={{border:"2px solid white"}}>
+        <section>
+        <div className="container">
             <form >
                 
                 <label htmlFor='className' style={{float: "left", marginRight: "20px"}}>Enter Course Name</label>
@@ -21,7 +21,7 @@ const App = () => {
                     <option value='Sun'>Sunday</option> 
                 </select><br/>
 
-                <div style = {{display: "block"}}>
+                
                     <div style={{float: "left", marginRight: "20px"}}>
                         <label htmlFor='classSTime'>Start Time</label>
                         <input type='time' id='classSTime'></input>
@@ -30,15 +30,22 @@ const App = () => {
                         <label htmlFor='classETime'>End Time</label>
                         <input type='time' id='classE9Time'></input>
                     </div>
-                </div>
-
+                
+                
                 <button type='submit'style={{float: "left", display: "block"}} >Add Course!</button>
             </form>
         </div>
-        <div style={{border:"2px solid white"}}>
+        </section>
 
+        <section>
+        <div className="container">
+            <div id='calendar'>
+
+            </div>
         </div>
-    </>
+        </section>
+        
+    </>;
 }
 
 export default App;
