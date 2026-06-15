@@ -1,10 +1,12 @@
 import './App.css';
-//import { useState } from 'react';
+import Class from './components/Class';
+import { useState } from 'react';
 
 const App = () => {
     return<>
-        <section>
-        <div className="container">
+    <div id='site'>
+        <section className='container'>
+        <div className="container" >
             <form >
                 
                 <label htmlFor='className' style={{float: "left", marginRight: "20px"}}>Enter Course Name</label>
@@ -20,32 +22,33 @@ const App = () => {
                     <option value='Sat'>Saturday</option>
                     <option value='Sun'>Sunday</option> 
                 </select><br/>
-
                 
-                    <div style={{float: "left", marginRight: "20px"}}>
-                        <label htmlFor='classSTime'>Start Time</label>
-                        <input type='time' id='classSTime'></input>
-                    </div>
-                    <div style={{float: "left"}}>
-                        <label htmlFor='classETime'>End Time</label>
-                        <input type='time' id='classE9Time'></input>
-                    </div>
-                
-                
+                <div style={{float: "left", marginRight: "20px"}}>
+                    <label htmlFor='classSTime'>Start Time</label>
+                    <input type='time' id='classSTime'></input>
+                </div>
+                    
                 <button type='submit'style={{float: "left", display: "block"}} >Add Course!</button>
             </form>
         </div>
         </section>
 
-        <section>
-        <div className="container">
-            <div id='calendar'>
-
+        <section id='schedule' className='container'>
+        <div className="container" >
+            <div id='calendar' >
+                item
             </div>
         </div>
         </section>
-        
+    </div>
     </>;
 }
 
 export default App;
+
+/*
+<div style={{float: "left"}}>
+                        <label htmlFor='classETime'>End Time</label>
+                        <input type='time' id='classE9Time'></input>
+                    </div>
+*/

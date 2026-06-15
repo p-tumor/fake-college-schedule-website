@@ -190,10 +190,21 @@
     float:left;
   }
 
-  .container{
+  section.container{
     border: 1px solid white;
+    background-color: blue;
   }
 
 #calendar{
   display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto;
+}
+
+#site{
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  grid-template-rows: 100vh;
+  gap: 1em;
+
 }
