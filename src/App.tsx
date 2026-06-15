@@ -33,10 +33,79 @@ const App = () => {
         </div>
         </section>
 
+        <section id='times' className='container'>
+            <p>8am</p>
+            <p>9am</p>
+            <p>10am</p>
+            <p>11am</p>
+            <p>12am</p>
+            <p>1pm</p>
+            <p>2pm</p>
+            <p>3pm</p>
+            <p>4pm</p>
+            <p>5pm</p>
+            <p>6pm</p>
+        </section>
+
         <section id='schedule' className='container'>
         <div className="container" >
             <div id='calendar' >
-                item
+                <div><Class name={'math'} time="3"/></div>
+                <div>item</div>
+                <div>item</div>
+                <div>item</div>
+                <div>item</div>
+                <div>item</div>
+                <div>item</div>
+                <div>item</div>
+                <div>item</div>
+                <div>item</div>
+                <div>item</div>
+                <div>item</div>
+                <div>item</div>
+                <div>item</div>
+                <div>item</div>
+                <div>item</div>
+                <div>item</div>
+                <div>item</div>
+                <div>item</div>
+                <div>item</div>
+                <div>item</div>
+                <div>item</div>
+                <div>item</div>
+                <div>item</div>
+                <div>item</div>
+                <div>item</div>
+                <div>item</div>
+                <div>item</div>
+                <div>item</div>
+                <div>item</div>
+                <div>item</div>
+                <div>item</div>
+                <div>item</div>
+                <div>item</div>
+                <div>item</div>
+                <div>item</div>
+                <div>item</div>
+                <div>item</div>
+                <div>item</div>
+                <div>item</div>
+                <div>item</div>
+                <div>item</div>
+                <div>item</div>
+                <div>item</div>
+                <div>item</div>
+                <div>item</div>
+                <div>item</div>
+                <div>item</div>
+                <div>item</div>
+                <div>item</div>
+                <div>item</div>
+                <div>item</div>
+                <div>item</div>
+                <div>item</div>
+                <div>item</div>
+                <div>item</div>
             </div>
         </div>
         </section>
